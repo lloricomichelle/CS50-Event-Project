@@ -1,5 +1,6 @@
-# YOUR PROJECT TITLE: 
-New Manila D-Day Check-in and Database
+# CS50’s Introduction to Computer Science Final Project 
+
+## New Manila D-Day Check-in and Database
 
 ## Video Demo:  
 <URL HERE>
