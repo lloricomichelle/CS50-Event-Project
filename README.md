@@ -57,15 +57,14 @@ This project is a web application for managing event attendees and their check-i
    ```bash
    pip install -r requirements.txt
    
-4. Setup Database * - This project uses SQLite as the database to store attendee information and event data. Follow the steps below to set up the database:*
+4. Setup Database
+   *This project uses SQLite as the database to store attendee information and event data. Follow the steps below to set up the database:*
    - Open a terminal and navigate to the project directory:
      ```bash
      cd event
-        
    - Create the database file:
      ```bash
-     sqlite3 checkin.db
-        
+     sqlite3 checkin.db   
    - Create required tables inside the SQLite shell by executing the following SQL commands:
      ```bash
      CREATE TABLE attendees (
@@ -88,11 +87,9 @@ This project is a web application for managing event attendees and their check-i
           visit_date DATE DEFAULT CURRENT_DATE,
           FOREIGN KEY (attendee_id) REFERENCES attendees(id)
       );
-     
    - Exit the SQLite shell:
      ```bash
      .exit
-
-5. Run the application:
+6. Run the application:
    ```bash
    flask run
