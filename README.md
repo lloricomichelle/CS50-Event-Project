@@ -1,9 +1,8 @@
 # CS50’s Introduction to Computer Science Final Project 
-# New Manila D-Day Check-in and Database
 
+## New Manila D-Day Check-in and Database
 #### Video Demo:  
 <URL HERE>
-
 #### Description: This project is a web application for managing event attendees and their check-ins. It provides features such as admin dashboard, attendee management, and reports.
 
 ## Features:
