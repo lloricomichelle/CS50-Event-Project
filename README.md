@@ -47,7 +47,7 @@ This project is a web application for managing event attendees and their check-i
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/lloricomichelle/CS50-Event-Project/event.git
+   git clone https://github.com/lloricomichelle/event.git
 
 2. Navigate into the project folder:
    ```bash
