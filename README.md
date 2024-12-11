@@ -57,7 +57,7 @@ This project is a web application for managing event attendees and their check-i
    ```bash
    pip install -r requirements.txt
    
-4. Setup Database
+4. Setup Database:
    - Open a terminal and navigate to the project directory:
      ```bash
      cd event
@@ -89,6 +89,7 @@ This project is a web application for managing event attendees and their check-i
    - Exit the SQLite shell:
      ```bash
      .exit
+
 6. Run the application:
    ```bash
    flask run
