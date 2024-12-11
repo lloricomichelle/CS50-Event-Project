@@ -48,14 +48,17 @@ This project is a web application for managing event attendees and their check-i
 1. Clone the repository:
    ```bash
    git clone https://github.com/lloricomichelle/event.git
+   ```
 
 2. Navigate into the project folder:
    ```bash
    cd event
+   ```
 
 3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
    
 4. Setup Database:
    - Open a terminal and navigate to the project directory:
