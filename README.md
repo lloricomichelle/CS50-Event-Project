@@ -42,6 +42,23 @@ This project is a web application for managing event attendees and their check-i
 /// ├── README.md/  # Documentation for the project.  
 /// ├── requirements.txt/  # Lists the dependencies required to run the application.  
 
+CS50x-Final-Project/
+├── static/                # Contains static files like CSS, JavaScript, and uploads
+│   ├── js/
+│   └── uploads/
+|   styles.css
+├── templates/             # HTML templates
+│   ├── index.html         # Homepage
+│   ├── layout.html        # Base layout for other templates
+│   ├── login.html         # Log in page
+│   ├── meal.html          # Meal Log page
+│   └── register.html      # Registration page
+├── app.py                 # Main application logic
+├── helpers.py             # Helper functions for application logic
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+└── tracker.db             # SQLite database
+
 
 
 ### Installation
