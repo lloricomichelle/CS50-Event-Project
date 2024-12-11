@@ -1,5 +1,5 @@
 # CS50’s Introduction to Computer Science Final Project 
-## New Manila D-Day Check-in and Database
+# New Manila D-Day Check-in and Database
 
 #### Video Demo:  
 <URL HERE>
