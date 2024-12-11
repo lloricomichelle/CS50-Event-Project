@@ -1,4 +1,5 @@
-# YOUR PROJECT TITLE: New Manila D-Day Check-in and Database
+# YOUR PROJECT TITLE: 
+New Manila D-Day Check-in and Database
 
 ## Video Demo:  <URL HERE>
 
