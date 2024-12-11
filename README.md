@@ -25,22 +25,24 @@ This project is a web application for managing event attendees and their check-i
 - JavaScript: Used for interactive features like attendee search and form validation.
 - Bootstrap: Framework for responsive and user-friendly design.
 
-### Project Structure
-event/
-├── static/                      # Contains CSS and other static assets used for styling and enhanced visual presentation of the application.
-│   ├── styles.css
-├── templates/                   # Stores HTML templates for rendering dynamic web pages.
-│   ├── admin_dashboard.html     # Admin panel for managing attendees, downloading database as Excel, and viewing reports.
-│   ├── admin_login.html         # Admin login page for secure access.
-│   ├── base.html                # Base template including the navigation bar for the entire application.
-│   ├── edit_attendee.html       # Page for admin to edit attendee details.
-│   ├── index.html               # Home page for check-in and new attendee addition.
-│   ├── regular_attendee.html    # Page for attendees already in the database to check-in.
-│   ├── report.html              # Displays detailed attendance reports.
-├── app.py/                      # The main Python file containing the Flask application and routes.
-├── checkin.db/                  # The SQLite database used for storing attendee information and event data.
-├── README.md/                   # Documentation for the project.
-├── requirements.txt/            # Lists the dependencies required to run the application.
+## Project Structure
+
+event/  
+├── static/  
+│   ├── styles.css  # Contains CSS and other static assets used for styling and enhanced visual presentation of the application.  
+├── templates/  
+│   ├── admin_dashboard.html  # Admin panel for managing attendees, downloading database as Excel, and viewing reports.  
+│   ├── admin_login.html      # Admin login page for secure access.  
+│   ├── base.html             # Base template including the navigation bar for the entire application.  
+│   ├── edit_attendee.html    # Page for admin to edit attendee details.  
+│   ├── index.html            # Home page for check-in and new attendee addition.  
+│   ├── regular_attendee.html # Page for attendees already in the database to check-in.  
+│   ├── report.html           # Displays detailed attendance reports.  
+├── app.py/  
+├── checkin.db/  
+├── README.md/  # Documentation for the project.  
+├── requirements.txt/  # Lists the dependencies required to run the application.  
+
 
 ### Installation
 1. Clone the repository:
