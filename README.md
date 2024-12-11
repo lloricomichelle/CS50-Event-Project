@@ -97,4 +97,3 @@ This project is a web application for managing event attendees and their check-i
 5. Run the application:
    ```bash
    flask run
-
