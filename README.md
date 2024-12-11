@@ -43,6 +43,7 @@ This project is a web application for managing event attendees and their check-i
 /// ├── requirements.txt/  # Lists the dependencies required to run the application.  
 
 
+
 ### Installation
 1. Clone the repository:
    ```bash
