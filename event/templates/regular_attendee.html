@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<body>
+    <h1>Regular Attendee Check-In</h1>
+    <form method="POST">
+        <label for="attendee_name">Select Your Name:</label>
+        <input type="text" id="attendee_name" name="attendee_name" placeholder="Start typing your name..." onkeyup="searchAttendees()">
+        <div id="suggestions" class="autocomplete-suggestions"></div><br>
+
+        <input type="hidden" id="selected_attendee_id" name="attendee_id">
+        <button type="submit">Check-In</button>
+    </form>
+
+    <script>
+        function searchAttendees() {
+            var input = document.getElementById('attendee_name').value;
+            var suggestions = document.getElementById('suggestions');
+
+            suggestions.innerHTML = '';
+
+            if (input.length > 2) {
+                fetch(`/search_attendees?name=${input}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        data.forEach(function(attendee) {
+                            var suggestionItem = document.createElement('div');
+                            suggestionItem.classList.add('autocomplete-suggestion');
+                            suggestionItem.textContent = attendee.first_name + ' ' + attendee.last_name;
+                            suggestionItem.dataset.attendeeId = attendee.id;
+
+                            suggestionItem.addEventListener('click', function() {
+                                document.getElementById('attendee_name').value = attendee.first_name + ' ' + attendee.last_name;
+                                document.getElementById('selected_attendee_id').value = attendee.id;
+                                suggestions.innerHTML = '';
+                            });
+
+                            suggestions.appendChild(suggestionItem);
+                        });
+                    });
+            }
+        }
+    </script>
+</body>
+
+{% endblock %}
