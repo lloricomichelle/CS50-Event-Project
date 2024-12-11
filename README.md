@@ -67,7 +67,7 @@ This project is a web application for managing event attendees and their check-i
      sqlite3 checkin.db   
 
    - Create required tables inside the SQLite shell by executing the following SQL commands:
-     ```bash
+     ```sql
      CREATE TABLE attendees (
          id INTEGER PRIMARY KEY AUTOINCREMENT,
          first_name TEXT NOT NULL,
