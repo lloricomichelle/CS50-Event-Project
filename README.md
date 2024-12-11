@@ -29,7 +29,7 @@ This project is a web application for managing event attendees and their check-i
    ```bash
    event/  
    ├── static/  
-   │   ├── styles.css            # Contains CSS and other static assets used for styling and enhanced visual presentation of the application.  
+   │   └── styles.css            # Contains CSS and other static assets used for styling and enhanced visual presentation of the application.  
    ├── templates/  
    │   ├── admin_dashboard.html  # Admin panel for managing attendees, downloading database as Excel, and viewing reports.  
    │   ├── admin_login.html      # Admin login page for secure access.  
@@ -37,11 +37,11 @@ This project is a web application for managing event attendees and their check-i
    │   ├── edit_attendee.html    # Page for admin to edit attendee details.  
    │   ├── index.html            # Home page for check-in and new attendee addition.  
    │   ├── regular_attendee.html # Page for attendees already in the database to check-in.  
-   │   ├── report.html           # Displays detailed attendance reports.  
-   ├── app.py/  
-   ├── checkin.db/  
-   ├── README.md/                # Documentation for the project.  
-   ├── requirements.txt/         # Lists the dependencies required to run the application.
+   │   └── report.html           # Displays detailed attendance reports.  
+   ├── app.py                    # The main Python file containing the Flask application and routes.
+   ├── checkin.db                # The SQLite database used for storing attendee information and event data.
+   ├── README.md                 # Documentation for the project.  
+   └── requirements.txt          # Lists the dependencies required to run the application.
    ```
 
 ## Installation
