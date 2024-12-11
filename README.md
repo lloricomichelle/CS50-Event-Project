@@ -27,7 +27,7 @@ This project is a web application for managing event attendees and their check-i
 
 ## Project Structure
    ```bash
-   event/  
+   project/  
    ├── static/  
    │   └── styles.css            # Contains CSS and other static assets used for styling and enhanced visual presentation of the application.  
    ├── templates/  
@@ -47,11 +47,11 @@ This project is a web application for managing event attendees and their check-i
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/lloricomichelle/event.git
+   git clone https://github.com/lloricomichelle/project.git
 
 2. Navigate into the project folder:
    ```bash
-   cd event
+   cd project
 
 3. Install the required dependencies:
    ```bash
@@ -60,7 +60,7 @@ This project is a web application for managing event attendees and their check-i
 4. Setup Database:
    - Open a terminal and navigate to the project directory:
      ```bash
-     cd event
+     cd project
 
    - Create the database file:
      ```bash
