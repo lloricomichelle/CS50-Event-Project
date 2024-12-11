@@ -1,7 +1,7 @@
 # CS50’s Introduction to Computer Science Final Project 
 
 ## Event Check-in and Database System
-#### Video Demo: <URL HERE>
+#### Video Demo: https://youtu.be/VenuAmZKg8I
 #### Description: 
 This project is a web application for managing event attendees and their check-ins. It provides features such as admin dashboard, attendee management, and reports.
 
